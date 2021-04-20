@@ -48,7 +48,7 @@ with(df,var(age))
 
 (belowZero <- sum(df$age < 0))
 
-# There appears to be no individuals in the dataset whose age is recorded as less than 0.
+# There are no individuals in the dataset whose age is below 0.
 
 # For any age values that are below zero, replace that age with zero. Write this
 # code whether or not there are ages below zero.
